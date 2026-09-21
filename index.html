@@ -6,6 +6,29 @@
     <title>My Personal Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+        .skill-card {
+            padding: 35px 20px;
+        }
+
+        .skill-card h3 {
+            font-size: 28px;
+            margin: 0;
+        }
+
+        @media (max-width: 800px) {
+            .skills-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -37,11 +60,10 @@
 
             <h1>Hi, I'm <span>Kristine Joy A. Traboco</span></h1>
 
-            <h2>My Personal Portfolio</h2>
-
             <p>
-                Welcome to my personal portfolio. Here you can learn more
-                about me, my skills, and the projects I have created.
+               Welcome to my portfolio. I'm a third-year BSIT student at Eastern Samar 
+               State University with skills in HTML, CSS, and GIS mapping, and 
+               I'm looking for an internship to gain practical experience.
             </p>
 
             <a href="#projects" class="btn">View My Work</a>
@@ -61,10 +83,11 @@
             <div class="about-text">
 
                 <p>
-                    I am a Bachelor of Science in Information Technology
-                    student who is interested in web development, programming,
-                    and technology. I am continuously developing my skills
-                    through school projects and practical activities.
+                    I am a third-year BSIT student at Eastern Samar State
+                    University. I am interested in web development and GIS
+                    mapping and enjoy creating simple and responsive
+                    websites. I am currently improving my skills through
+                    school projects and practical activities.
                 </p>
 
             </div>
@@ -83,19 +106,7 @@
                 <div class="education-item">
                     <h4>Senior High School</h4>
                     <p>Sta. Fe National High School, Borongan City</p>
-                    <p>2022-2023</p>
-                </div>
-
-                <div class="education-item">
-                    <h4>Junior High School</h4>
-                    <p>Sta. Fe National High School, Borongan City</p>
-                    <p>2019-2020</p>
-                </div>
-
-                <div class="education-item">
-                    <h4>Elementary</h4>
-                    <p>Bugas Elementary School, Borongan City</p>
-                    <p>2017-2018</p>
+                    <p>2023-2024</p>
                 </div>
 
             </div>
@@ -114,12 +125,14 @@
 
             <div class="skill-card">
                 <h3>HTML</h3>
-                <p>Creating and structuring web pages.</p>
             </div>
 
             <div class="skill-card">
                 <h3>CSS</h3>
-                <p>Designing and styling web pages.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>QGIS</h3>
             </div>
 
         </div>
@@ -133,7 +146,6 @@
         <h2>My Projects</h2>
 
         <p class="project-note">
-        
         </p>
 
         <div class="projects-container">
@@ -178,7 +190,6 @@
                     <img src="images/Task Mngr.jpg"
                          alt="Task Manager System">
 
-
                 </a>
 
                 <div class="project-content">
@@ -207,7 +218,6 @@
                     <img src="images/Arduino.jpg"
                          alt="Arduino Automatic Door Opener">
 
-
                 </a>
 
                 <div class="project-content">
@@ -215,10 +225,41 @@
                     <h3>Arduino Automatic Door Opener</h3>
 
                     <p>
-                        An Arduino-based project designed to automate the
-                        opening of a door and reduce the need for manual
-                        operation. I worked with my group in assembling and
-                        developing the project.
+                       An Arduino-based Automatic Door Opener designed to 
+                       open a small door when a person approaches using a sensor. 
+                       The project also displays the system status on an LCD.I
+                       worked with my group in assembling and developing the project. 
+                        
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- QGIS HAZARD IDENTIFICATION -->
+            <div class="project-card">
+
+                <a href="images/QGIS.jpg"
+                   target="_blank"
+                   class="project-image">
+
+                    <img src="images/QGIS.jpg"
+                         alt="QGIS Hazard Identification and Classification Brgy. Tabunan">
+
+                </a>
+
+                <div class="project-content">
+
+                    <h3>QGIS Hazard Identification and Classification Brgy. Tabunan</h3>
+
+                    <p>
+                        A QGIS project focused on identifying and classifying
+                        boarding houses in Brgy. Tabunan based on different
+                        hazard zones. I used tools such as Intersection and
+                        Difference to identify affected and unaffected
+                        boarding houses and classify them into low, moderate,
+                        and high risk.
                     </p>
 
                 </div>
@@ -234,7 +275,7 @@
     <!-- CONTACT -->
     <section id="contact" class="section">
 
-        <h2>Contact Me</h2>
+        <h2>Contacts</h2>
 
         <div class="contact-box">
 
