@@ -1,8 +1,4 @@
-/* ==============================
-   GENERAL
-================================= */
-
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,9 +13,7 @@ body {
 }
 
 
-/* ==============================
-   HEADER / NAVIGATION
-================================= */
+/* Header */
 
 header {
     background-color: #3d050c;
@@ -61,9 +55,7 @@ nav ul li a:hover {
 }
 
 
-/* ==============================
-   HOME
-================================= */
+/* Home */
 
 .home {
     min-height: 90vh;
@@ -126,9 +118,7 @@ nav ul li a:hover {
 }
 
 
-/* ==============================
-   GENERAL SECTIONS
-================================= */
+/* Sections */
 
 .section {
     max-width: 1100px;
@@ -144,9 +134,7 @@ nav ul li a:hover {
 }
 
 
-/* ==============================
-   ABOUT
-================================= */
+/* About */
 
 .about-content {
     display: grid;
@@ -195,9 +183,7 @@ nav ul li a:hover {
 }
 
 
-/* ==============================
-   SKILLS
-================================= */
+/* Skills */
 
 .skills-container {
     display: grid;
@@ -230,14 +216,8 @@ nav ul li a:hover {
     margin: 0;
 }
 
-.skill-card p {
-    color: #6b6163;
-}
 
-
-/* ==============================
-   PROJECTS
-================================= */
+/* Projects */
 
 .project-note {
     text-align: center;
@@ -304,9 +284,7 @@ nav ul li a:hover {
 }
 
 
-/* ==============================
-   CONTACT
-================================= */
+/* Contact */
 
 #contact {
     text-align: center;
@@ -357,9 +335,7 @@ nav ul li a:hover {
 }
 
 
-/* ==============================
-   FOOTER
-================================= */
+/* Footer */
 
 footer {
     background-color: #3d050c;
@@ -374,9 +350,7 @@ footer p {
 }
 
 
-/* ==============================
-   RESPONSIVE / TABLET
-================================= */
+/* Responsive */
 
 @media (max-width: 800px) {
 
@@ -412,15 +386,6 @@ footer p {
     .skills-container {
         grid-template-columns: 1fr;
     }
-
-}
-
-
-/* ==============================
-   RESPONSIVE / MOBILE
-================================= */
-
-@media (max-width: 500px) {
 
     .home {
         padding: 60px 20px;
@@ -458,5 +423,4 @@ footer p {
     .contact-box {
         padding: 20px;
     }
-
 }
